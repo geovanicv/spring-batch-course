@@ -1,4 +1,4 @@
-package com.geovanicv.parImparJob;
+package com.geovanicv.parImpar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
