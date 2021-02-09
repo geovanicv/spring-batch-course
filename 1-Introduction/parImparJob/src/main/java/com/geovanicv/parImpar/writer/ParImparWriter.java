@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 public class ParImparWriter {
 	
 	@Bean
-	@StepScope
 	public ItemWriter<String> imprimeWriter() {
 		return itens -> itens.forEach(System.out::println);
 	}
